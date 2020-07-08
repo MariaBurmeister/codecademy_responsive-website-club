@@ -158,99 +158,19 @@ main{
 }
 
 .appointment {
-  padding: 1rem 1.5rem;
-  font-size: 1.1rem;
-
-  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
-}
-
-.appointment_img-container {
-  margin-left: 0;
-  max-width: 200px;
-  max-height: 200px;
-}
-
-.appointment_img {
-  max-width: 100%;
-  height: auto;
-  overflow: hidden;
+  padding-left: 1.5rem;
 
 }
 
-.appointment figcaption {
-  color: gray;
-  font-size: 1.25rem;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-}
-
-.appointment span {
-  font-style: normal;
-  font-size: .9rem;
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-
-.action {
-  background-color: green;
-  color: lightgray;
-  border: 1px solid green;
-  border-radius: 7px;
-
-  font-size: 1.2rem;
-
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  margin-top: 2.3rem;
-  max-width: 15rem;
-
-  float: right;
-
-  transition: all 0.2s ease-out;
-
-}
-
-.action:hover {
-  background-color: lightgray;
-  color: green;
-  font-size: 1.3rem;
-  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
-
+.apointment em {
+  font-weight: bold;
 }
 
 @media only screen and (min-width:550px) {
-  .next-visits {
-    margin: 3.5rem auto ;
-    width: 90%;
-    text-align: center;
-  }
-
-  .appointment {
-    max-width: 45%;
-    display: inline-block;
-    text-align: center;
-
-  }
-
-  .appointment_img-container {
-    width: 100%;
-    margin: auto;
-  }
-
-  .action {
-   float: none;
-   display: block;
-  }
 
 }
 
-@media only screen and (min-width:900px) {
 
-  .appointment {
-    max-width: 30%;
-    margin-left: 3%;
-  }
-}
 
 
 /*-----------------------------------------------------GALLERY */
@@ -273,7 +193,6 @@ main{
 
 .container img {
   width: 100%;
-  display: block;
 }
 
 @media only screen and (min-width:550px) {
@@ -290,16 +209,17 @@ main{
     display: inline-block;
     transition: all 0.3s ease-out;
 }
-  .container:hover {
+  .container :hover {
     box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.2);
-    transform: scale(1.1);
+    width: 110%;
+    height: 110%;
   }
 }
 
 @media only screen and (min-width:900px) {
 
 .container {
-  width: 30%;
+  max-width: 30%;
   max-height: 30rem;
 
 }
