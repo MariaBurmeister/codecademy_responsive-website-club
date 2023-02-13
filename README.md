@@ -3,7 +3,7 @@
 This is a __Codecademy Web Development Path [Project](https://www.codecademy.com/practice/projects/responsive-club-website)__
 and it was done as a __Responsiveness and Media Queries__ exercise.
 
-**[HERE](https://mariaburmeister.github.io/Codecademy_ResponsiveWebsiteClub/)'s** the published page. 
+**[HERE](https://mariaburmeister.com/codecademy_responsive-website-club/)'s** the published page. 
 
 ### technologies:
   - HTML
